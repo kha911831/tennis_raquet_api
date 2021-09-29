@@ -4,9 +4,9 @@ import pymysql
 
 app = Flask(__name__)
 db = pymysql.connect(
-    host="DESKTOP-I2KTJTT",
-    user="public",
-    passwd="@Password1",
+    host="localhost",
+    user="root",
+    passwd="testpassword",
     db="tennis_raquets"
 )
 
