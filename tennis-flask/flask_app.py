@@ -26,4 +26,20 @@ def get_raquets():
 
 @app.route('/price/<comparator>')
 def get_price():
-    pass
+    return
+
+@app.route('/headsize/<size>')
+def get_head_size():
+    return
+
+@app.route('?weight/<strung>')
+def get_weight():
+    return
+
+@app.route('/tension/<range>')
+def get_tension():
+    return
+
+@app.route('/power')
+def get_power():
+    return
